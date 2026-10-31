@@ -9,7 +9,7 @@
 This repository contains the completed exercises for the Git and GitHub assignment. It demonstrates version control, repository management, and GitHub collaboration.
 
 ## Completed Exercises
-(To be updated after adding the assigned exercise files.)
+2. Exercise 02 - Prime Numbers in a Range (exercise-02)
 
 ## Repository Structure
 - README.md
