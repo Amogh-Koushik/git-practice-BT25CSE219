@@ -1,0 +1,4 @@
+Enter the range (L R): 
+Prime numbers between 10 and 50:
+11 13 17 19 23 29 31 37 41 43 47 
+Total primes found: 11
