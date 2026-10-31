@@ -15,6 +15,11 @@ int main() {
     cout << "Enter second number: ";
     cin >> b;
 
+    if (!cin) {
+        cout << "\nInvalid input. Please enter numbers only." << endl;
+        return 1;
+    }
+
     switch (op) {
         case '+':
             cout << "\nResult: " << a << " + " << b << " = " << a + b << endl;
