@@ -9,7 +9,7 @@
 This repository contains the completed exercises for the Git and GitHub assignment. It demonstrates version control, repository management, and GitHub collaboration.
 
 ## Completed Exercises
-(To be updated after adding the assigned exercise files.)
+1. Exercise 01 - Simple Calculator (exercise-01)
 
 ## Repository Structure
 - README.md
