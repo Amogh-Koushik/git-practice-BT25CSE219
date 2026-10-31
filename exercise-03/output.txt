@@ -1,0 +1,6 @@
+Enter number of elements: Enter 6 elements: 
+Sum     : 80
+Average : 13.3333
+Minimum : -3
+Maximum : 45
+Sorted  : -3 0 7 12 19 45 

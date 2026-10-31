@@ -11,6 +11,7 @@ This repository contains the completed exercises for the Git and GitHub assignme
 ## Completed Exercises
 1. Exercise 01 - Simple Calculator (exercise-01)
 2. Exercise 02 - Prime Numbers in a Range (exercise-02)
+3. Exercise 03 - Array Statistics (exercise-03)
 
 ## Repository Structure
 - README.md
