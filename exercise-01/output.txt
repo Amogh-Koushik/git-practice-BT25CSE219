@@ -1,0 +1,2 @@
+Enter first number: Enter operator (+, -, *, /): Enter second number: 
+Result: 25 * 4 = 100
