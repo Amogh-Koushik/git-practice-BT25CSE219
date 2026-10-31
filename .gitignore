@@ -1,0 +1,7 @@
+# compiled binaries
+*.exe
+*.out
+*.o
+exercise-*/calculator
+exercise-*/primes
+exercise-*/array_stats
