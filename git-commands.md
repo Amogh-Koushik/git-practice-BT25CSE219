@@ -56,3 +56,30 @@ For every exercise:
 3. Added the source code, then sample input and output, in separate commits.
 4. Pushed the branch and opened a pull request with "Closes #issue-number".
 5. Merged the pull request into main and pulled the latest main.
+
+## Merge Conflict Faced
+
+I created the exercise-02 branch from main at the same time as exercise-01. Both branches changed the same line in README.md (the placeholder line under "Completed Exercises").
+
+After the exercise 1 pull request (#5) was merged into main, GitHub showed that the exercise 2 pull request (#6) had conflicts and could not be merged automatically.
+
+Steps I followed to resolve it:
+
+1. `git fetch origin` to get the updated main.
+2. `git merge origin/main` on the exercise-02 branch. Git stopped with:
+
+        CONFLICT (content): Merge conflict in README.md
+        Automatic merge failed; fix conflicts and then commit the result.
+
+3. README.md had both versions of the line between conflict markers:
+
+        <<<<<<< HEAD
+        2. Exercise 02 - Prime Numbers in a Range (exercise-02)
+        =======
+        1. Exercise 01 - Simple Calculator (exercise-01)
+        >>>>>>> origin/main
+
+4. Both lines were needed, so I kept both (exercise 1 first, then exercise 2) and removed the markers.
+5. `git add README.md`, then `git commit -m "Resolve merge conflict in README exercise list"` and `git push`.
+
+After pushing, the pull request showed no conflicts and was merged into main.
